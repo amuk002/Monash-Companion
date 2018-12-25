@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493EA0DE213A6DDC00F21660 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493EA0DD213A6DDC00F21660 /* AnimalDetailViewController.swift */; };
+		494718512140C5C1007E08AF /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494718502140C5C1007E08AF /* Launch Screen.xib */; };
+		494718552140D16D007E08AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494718542140D16D007E08AF /* Assets.xcassets */; };
+		4963E2E42133A25C002DEE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963E2E32133A25C002DEE3D /* AppDelegate.swift */; };
+		4963E2E92133A25C002DEE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4963E2E72133A25C002DEE3D /* Main.storyboard */; };
+		4963E2EC2133A25C002DEE3D /* Monash_Companion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4963E2EA2133A25C002DEE3D /* Monash_Companion.xcdatamodeld */; };
+		4963E2FC2133A25D002DEE3D /* Monash_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963E2FB2133A25D002DEE3D /* Monash_CompanionTests.swift */; };
+		4963E3072133A25D002DEE3D /* Monash_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963E3062133A25D002DEE3D /* Monash_CompanionUITests.swift */; };
+		4963E3152133A31A002DEE3D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963E3142133A31A002DEE3D /* MapViewController.swift */; };
+		4963E3192133CD8F002DEE3D /* AnimalListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963E3182133CD8F002DEE3D /* AnimalListController.swift */; };
+		4963E31B2133CDFB002DEE3D /* NewAnimalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963E31A2133CDFB002DEE3D /* NewAnimalController.swift */; };
+		4963E31D2133CE23002DEE3D /* FencedAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963E31C2133CE23002DEE3D /* FencedAnnotation.swift */; };
+		498F3FDC21382E6900C5ED32 /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F3FDB21382E6900C5ED32 /* ArtworkView.swift */; };
+		49918471213E5F86006B48DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49918470213E5F86006B48DF /* CoreData.framework */; };
+		49918474213E61A4006B48DF /* Animals+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49918472213E61A4006B48DF /* Animals+CoreDataClass.swift */; };
+		49918475213E61A4006B48DF /* Animals+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49918473213E61A4006B48DF /* Animals+CoreDataProperties.swift */; };
+		49C82C31213EA3A8007FC557 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C82C30213EA3A8007FC557 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4963E2F82133A25D002DEE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4963E2D82133A25C002DEE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4963E2DF2133A25C002DEE3D;
+			remoteInfo = "Monash Companion";
+		};
+		4963E3032133A25D002DEE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4963E2D82133A25C002DEE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4963E2DF2133A25C002DEE3D;
+			remoteInfo = "Monash Companion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		493EA0DD213A6DDC00F21660 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
+		494718502140C5C1007E08AF /* Launch Screen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		494718542140D16D007E08AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4963E2E02133A25C002DEE3D /* Monash Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monash Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4963E2E32133A25C002DEE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4963E2E82133A25C002DEE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4963E2EB2133A25C002DEE3D /* Monash_Companion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Monash_Companion.xcdatamodel; sourceTree = "<group>"; };
+		4963E2F22133A25D002DEE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4963E2F72133A25D002DEE3D /* Monash CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monash CompanionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4963E2FB2133A25D002DEE3D /* Monash_CompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monash_CompanionTests.swift; sourceTree = "<group>"; };
+		4963E2FD2133A25D002DEE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4963E3022133A25D002DEE3D /* Monash CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monash CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4963E3062133A25D002DEE3D /* Monash_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monash_CompanionUITests.swift; sourceTree = "<group>"; };
+		4963E3082133A25D002DEE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4963E3142133A31A002DEE3D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4963E3182133CD8F002DEE3D /* AnimalListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListController.swift; sourceTree = "<group>"; };
+		4963E31A2133CDFB002DEE3D /* NewAnimalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnimalController.swift; sourceTree = "<group>"; };
+		4963E31C2133CE23002DEE3D /* FencedAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FencedAnnotation.swift; sourceTree = "<group>"; };
+		498F3FDB21382E6900C5ED32 /* ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
+		49918470213E5F86006B48DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		49918472213E61A4006B48DF /* Animals+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animals+CoreDataClass.swift"; sourceTree = "<group>"; };
+		49918473213E61A4006B48DF /* Animals+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animals+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49C82C30213EA3A8007FC557 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		49EE3E8F214221320034F405 /* koala.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = koala.gpx; path = ../koala.gpx; sourceTree = "<group>"; };
+		49EE3E90214221360034F405 /* kangaroo.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = kangaroo.gpx; path = ../kangaroo.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4963E2DD2133A25C002DEE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C82C31213EA3A8007FC557 /* CoreLocation.framework in Frameworks */,
+				49918471213E5F86006B48DF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4963E2F42133A25D002DEE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4963E2FF2133A25D002DEE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4963E2D72133A25C002DEE3D = {
+			isa = PBXGroup;
+			children = (
+				49EE3E90214221360034F405 /* kangaroo.gpx */,
+				49EE3E8F214221320034F405 /* koala.gpx */,
+				49918472213E61A4006B48DF /* Animals+CoreDataClass.swift */,
+				49918473213E61A4006B48DF /* Animals+CoreDataProperties.swift */,
+				4963E2E22133A25C002DEE3D /* Monash Companion */,
+				4963E2FA2133A25D002DEE3D /* Monash CompanionTests */,
+				4963E3052133A25D002DEE3D /* Monash CompanionUITests */,
+				4963E2E12133A25C002DEE3D /* Products */,
+				4991846F213E5F85006B48DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4963E2E12133A25C002DEE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4963E2E02133A25C002DEE3D /* Monash Companion.app */,
+				4963E2F72133A25D002DEE3D /* Monash CompanionTests.xctest */,
+				4963E3022133A25D002DEE3D /* Monash CompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4963E2E22133A25C002DEE3D /* Monash Companion */ = {
+			isa = PBXGroup;
+			children = (
+				4963E2E32133A25C002DEE3D /* AppDelegate.swift */,
+				4963E3142133A31A002DEE3D /* MapViewController.swift */,
+				4963E2E72133A25C002DEE3D /* Main.storyboard */,
+				493EA0DD213A6DDC00F21660 /* AnimalDetailViewController.swift */,
+				4963E31A2133CDFB002DEE3D /* NewAnimalController.swift */,
+				4963E3182133CD8F002DEE3D /* AnimalListController.swift */,
+				494718502140C5C1007E08AF /* Launch Screen.xib */,
+				494718542140D16D007E08AF /* Assets.xcassets */,
+				4963E2F22133A25D002DEE3D /* Info.plist */,
+				4963E2EA2133A25C002DEE3D /* Monash_Companion.xcdatamodeld */,
+				4963E31C2133CE23002DEE3D /* FencedAnnotation.swift */,
+				498F3FDB21382E6900C5ED32 /* ArtworkView.swift */,
+			);
+			path = "Monash Companion";
+			sourceTree = "<group>";
+		};
+		4963E2FA2133A25D002DEE3D /* Monash CompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				4963E2FB2133A25D002DEE3D /* Monash_CompanionTests.swift */,
+				4963E2FD2133A25D002DEE3D /* Info.plist */,
+			);
+			path = "Monash CompanionTests";
+			sourceTree = "<group>";
+		};
+		4963E3052133A25D002DEE3D /* Monash CompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4963E3062133A25D002DEE3D /* Monash_CompanionUITests.swift */,
+				4963E3082133A25D002DEE3D /* Info.plist */,
+			);
+			path = "Monash CompanionUITests";
+			sourceTree = "<group>";
+		};
+		4991846F213E5F85006B48DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49C82C30213EA3A8007FC557 /* CoreLocation.framework */,
+				49918470213E5F86006B48DF /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4963E2DF2133A25C002DEE3D /* Monash Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4963E30B2133A25D002DEE3D /* Build configuration list for PBXNativeTarget "Monash Companion" */;
+			buildPhases = (
+				4963E2DC2133A25C002DEE3D /* Sources */,
+				4963E2DD2133A25C002DEE3D /* Frameworks */,
+				4963E2DE2133A25C002DEE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monash Companion";
+			productName = "Monash Companion";
+			productReference = 4963E2E02133A25C002DEE3D /* Monash Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4963E2F62133A25D002DEE3D /* Monash CompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4963E30E2133A25D002DEE3D /* Build configuration list for PBXNativeTarget "Monash CompanionTests" */;
+			buildPhases = (
+				4963E2F32133A25D002DEE3D /* Sources */,
+				4963E2F42133A25D002DEE3D /* Frameworks */,
+				4963E2F52133A25D002DEE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4963E2F92133A25D002DEE3D /* PBXTargetDependency */,
+			);
+			name = "Monash CompanionTests";
+			productName = "Monash CompanionTests";
+			productReference = 4963E2F72133A25D002DEE3D /* Monash CompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4963E3012133A25D002DEE3D /* Monash CompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4963E3112133A25D002DEE3D /* Build configuration list for PBXNativeTarget "Monash CompanionUITests" */;
+			buildPhases = (
+				4963E2FE2133A25D002DEE3D /* Sources */,
+				4963E2FF2133A25D002DEE3D /* Frameworks */,
+				4963E3002133A25D002DEE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4963E3042133A25D002DEE3D /* PBXTargetDependency */,
+			);
+			name = "Monash CompanionUITests";
+			productName = "Monash CompanionUITests";
+			productReference = 4963E3022133A25D002DEE3D /* Monash CompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4963E2D82133A25C002DEE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Aditi;
+				TargetAttributes = {
+					4963E2DF2133A25C002DEE3D = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					4963E2F62133A25D002DEE3D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4963E2DF2133A25C002DEE3D;
+					};
+					4963E3012133A25D002DEE3D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4963E2DF2133A25C002DEE3D;
+					};
+				};
+			};
+			buildConfigurationList = 4963E2DB2133A25C002DEE3D /* Build configuration list for PBXProject "Monash Companion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4963E2D72133A25C002DEE3D;
+			productRefGroup = 4963E2E12133A25C002DEE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4963E2DF2133A25C002DEE3D /* Monash Companion */,
+				4963E2F62133A25D002DEE3D /* Monash CompanionTests */,
+				4963E3012133A25D002DEE3D /* Monash CompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4963E2DE2133A25C002DEE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494718512140C5C1007E08AF /* Launch Screen.xib in Resources */,
+				494718552140D16D007E08AF /* Assets.xcassets in Resources */,
+				4963E2E92133A25C002DEE3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4963E2F52133A25D002DEE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4963E3002133A25D002DEE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4963E2DC2133A25C002DEE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4963E2EC2133A25C002DEE3D /* Monash_Companion.xcdatamodeld in Sources */,
+				4963E31B2133CDFB002DEE3D /* NewAnimalController.swift in Sources */,
+				49918475213E61A4006B48DF /* Animals+CoreDataProperties.swift in Sources */,
+				498F3FDC21382E6900C5ED32 /* ArtworkView.swift in Sources */,
+				49918474213E61A4006B48DF /* Animals+CoreDataClass.swift in Sources */,
+				4963E2E42133A25C002DEE3D /* AppDelegate.swift in Sources */,
+				4963E31D2133CE23002DEE3D /* FencedAnnotation.swift in Sources */,
+				4963E3152133A31A002DEE3D /* MapViewController.swift in Sources */,
+				493EA0DE213A6DDC00F21660 /* AnimalDetailViewController.swift in Sources */,
+				4963E3192133CD8F002DEE3D /* AnimalListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4963E2F32133A25D002DEE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4963E2FC2133A25D002DEE3D /* Monash_CompanionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4963E2FE2133A25D002DEE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4963E3072133A25D002DEE3D /* Monash_CompanionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4963E2F92133A25D002DEE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4963E2DF2133A25C002DEE3D /* Monash Companion */;
+			targetProxy = 4963E2F82133A25D002DEE3D /* PBXContainerItemProxy */;
+		};
+		4963E3042133A25D002DEE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4963E2DF2133A25C002DEE3D /* Monash Companion */;
+			targetProxy = 4963E3032133A25D002DEE3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4963E2E72133A25C002DEE3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4963E2E82133A25C002DEE3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4963E3092133A25D002DEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4963E30A2133A25D002DEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4963E30C2133A25D002DEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAMNG25A53;
+				INFOPLIST_FILE = "Monash Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditimukhopadhyay.Monash-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4963E30D2133A25D002DEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAMNG25A53;
+				INFOPLIST_FILE = "Monash Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditimukhopadhyay.Monash-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4963E30F2133A25D002DEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAMNG25A53;
+				INFOPLIST_FILE = "Monash CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditimukhopadhyay.Monash-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monash Companion.app/Monash Companion";
+			};
+			name = Debug;
+		};
+		4963E3102133A25D002DEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAMNG25A53;
+				INFOPLIST_FILE = "Monash CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditimukhopadhyay.Monash-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monash Companion.app/Monash Companion";
+			};
+			name = Release;
+		};
+		4963E3122133A25D002DEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAMNG25A53;
+				INFOPLIST_FILE = "Monash CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditimukhopadhyay.Monash-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monash Companion";
+			};
+			name = Debug;
+		};
+		4963E3132133A25D002DEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAMNG25A53;
+				INFOPLIST_FILE = "Monash CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aditimukhopadhyay.Monash-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monash Companion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4963E2DB2133A25C002DEE3D /* Build configuration list for PBXProject "Monash Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4963E3092133A25D002DEE3D /* Debug */,
+				4963E30A2133A25D002DEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4963E30B2133A25D002DEE3D /* Build configuration list for PBXNativeTarget "Monash Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4963E30C2133A25D002DEE3D /* Debug */,
+				4963E30D2133A25D002DEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4963E30E2133A25D002DEE3D /* Build configuration list for PBXNativeTarget "Monash CompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4963E30F2133A25D002DEE3D /* Debug */,
+				4963E3102133A25D002DEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4963E3112133A25D002DEE3D /* Build configuration list for PBXNativeTarget "Monash CompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4963E3122133A25D002DEE3D /* Debug */,
+				4963E3132133A25D002DEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4963E2EA2133A25C002DEE3D /* Monash_Companion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4963E2EB2133A25C002DEE3D /* Monash_Companion.xcdatamodel */,
+			);
+			currentVersion = 4963E2EB2133A25C002DEE3D /* Monash_Companion.xcdatamodel */;
+			path = Monash_Companion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4963E2D82133A25C002DEE3D /* Project object */;
+}
